@@ -22,3 +22,5 @@ If you want the same thing, just do the following:
 5.  That's pretty much it
 
 You can actually also change the "TargetFolderPath" under the CLSID of the original Synology Drive Client for My Drive, to make the folder structure of your personal Synology Drive also appear in the navigation pane, much like the team folder's behavior.  That way it is all consistant across OneDrive, (Dropbox?), (Google Drive?), and Synology Drive.
+
+_Knowledge on modifying the apporpriate entries in Windows Registry:  https://learn.microsoft.com/en-us/windows/win32/shell/integrate-cloud-storage_
