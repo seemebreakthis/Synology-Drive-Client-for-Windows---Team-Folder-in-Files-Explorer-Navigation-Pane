@@ -3,9 +3,9 @@ For the longest time I have been baffled by how the Synology Drive Client presen
 
 ... Why can't it look and work like OneDrive, which is way easier and convenient?  Just make the folder structure visible on the Navigation Pane, simple as that !
 
-I was frustrated to the point where I decdided to start tweaking Windows, until I finally get Synology Drive Client to behave the way it should:
+I was frustrated to the point where I decdided to start tweaking some stuff, until I finally got Synology Drive Client to behave the way I feel it should:
 
-| Before Expanding        | After Expanding         |
+| Both My Drive and Team Folder Visible        | After Expanding         |
 | ----------------------  | ----------------------  |
 | ![Pic 1](picture_1.jpg) | ![Pic 2](picture_2.jpg) |
 
@@ -21,4 +21,4 @@ If you want the same thing, just do the following:
 
 5.  That's pretty much it
 
-You can actually also change the "TargetFolderPath" under the CLSID for the original Synology Drive Client, to make the folder structure of your personal Synology Drive also appear in the navigation pane, much like the team folder's behavior.  That way it is all consistant across OneDrive, (Dropbox?), (Google Drive?), and Synology Drive.
+You can actually also change the "TargetFolderPath" under the CLSID of the original Synology Drive Client for My Drive, to make the folder structure of your personal Synology Drive also appear in the navigation pane, much like the team folder's behavior.  That way it is all consistant across OneDrive, (Dropbox?), (Google Drive?), and Synology Drive.
