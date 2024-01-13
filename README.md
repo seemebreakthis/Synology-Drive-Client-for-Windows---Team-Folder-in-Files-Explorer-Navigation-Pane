@@ -13,11 +13,11 @@ If you want the same thing, just do the following:
 
 1.  Download the two .reg files
    
-2.  Before importing, open these files with notepad first, and make sure the "{0068B912-7C60-408D-917E-7EF898A41534}" doesn't yet exist in your registry (in the very unlikely event that it already exists, just replace each occurance to a value that doesn't yet exist.  You will need to make sure all occurances are replaced with the same new value.
+2.  Before importing, open these files with notepad first, and check against regedit to make sure the "{0068B912-7C60-408D-917E-7EF898A41534}" doesn't yet exist in your registry (in the very unlikely event that it already exists, just replace each occurance to a value that doesn't yet exist.  You will need to make sure all occurances are replaced with the same new value.
 
 3.  Import
 
-4.  For "TargetFolderPath" (in "Computer\HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{0068B912-7C60-408D-917E-7EF898A41534}\Instance\InitPropertyBag"), you will need to replace the path with the one you are actually using to sync with Synology Drive
+4.  Run regedit.  For "TargetFolderPath" (in "Computer\HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{0068B912-7C60-408D-917E-7EF898A41534}\Instance\InitPropertyBag"), you will need to replace the path with the one you are actually using to sync with Synology Drive
 
 5.  That's pretty much it
 
